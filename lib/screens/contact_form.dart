@@ -80,6 +80,7 @@ class _ContactFormState extends State<ContactForm> {
                           context, Contact(id, name, accountNumber)));
                     }
                   },
+                  color:Theme.of(context).buttonTheme.colorScheme?.primary,
                   child: widget.edit ? Text('Update') : Text('Create'),
                 ),
               ),
