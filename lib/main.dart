@@ -20,11 +20,8 @@ class BytebankApp extends StatelessWidget {
           buttonColor: Colors.pinkAccent,
           textTheme: ButtonTextTheme.primary,
         ),
-
       ),
-      home:Dashboard(),
+      home: Dashboard(),
     );
   }
 }
-
-
